@@ -4,10 +4,10 @@ function togglePasswordVisibility() {
 
     if (passwordInput.type === 'password'){
         passwordInput.type = 'text';
-        eyeIcon.style.backgroundImage = url(eye-not.png);
+        eyeIcon.style.backgroundImage = url(/ima/eye-not.png);
     }else{
         passwordInput.type = 'password';
-        eyeIcon.style.backgroundImage = url(eye.png)
+        eyeIcon.style.backgroundImage = url(ima/eye.png)
     }
 
     
@@ -21,10 +21,10 @@ function togglePasswordVisibility1(){
 
     if (passwordInput2.type === 'password'){
         passwordInput2.type = 'text';
-        eyeIcon2.style.backgroundImage = url(eye-not.png)
+        eyeIcon2.style.backgroundImage = url(ima/eye-not.png)
     }else{
         passwordInput2.type = 'password';
-        eyeIcon2.style.backgroundImage = url(eye.png)
+        eyeIcon2.style.backgroundImage = url(ima/eye.png)
     }
 
 }

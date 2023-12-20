@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/paisaje.jpg);
+    background-image: url(ima/paisaje.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ textarea:hover{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url(/eye.png);
+    background-image: url(ima/eye.png);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.2);
     cursor:pointer;
@@ -78,7 +78,7 @@ textarea:hover{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url(/eye.png);
+    background-image: url(ima/eye.png);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.2);
     cursor:pointer;
