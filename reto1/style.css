@@ -1,0 +1,97 @@
+body{
+    font-family: arial, sans-srif;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border:3px solid red;
+}
+h2{
+    display:flex;
+    justify-content: center;
+    /* background: linear-gradient(to right, blue, lightblue); */
+    background: radial-gradient(circle, blue, lightblue);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+input,
+textarea{
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+input,
+textarea:hover{
+    border:3px solid  #043467;
+}
+
+.container-password{
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    /* width: 100%; */
+}
+
+.eye{
+    position: absolute;
+    top: 35%;
+    right: 320px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(/eye.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor:pointer;
+
+}
+
+
+.eye1{
+    position: absolute;
+    top: 35%;
+    right: 90px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(/eye.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor:pointer;
+
+}
+
+button{
+    background-color: #007bff;
+    color:#fff;
+    padding:10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}

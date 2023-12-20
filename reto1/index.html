@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Create an acount</h2>
+
+        <form>
+            <!-- <label for="nombre">Name:</label> -->
+            <input type="text" id="nombre" name="nombre" placeholder="Name" required>
+
+            <!-- <label for="apellido">Lastname:</label> -->
+            <input type="text" id="apellido" name="apellido" placeholder="Lastname" required>
+
+            <!-- <label for="email">Email:</label> -->
+            <input type="email" id="email" name="email" placeholder="email" required>
+
+            <!-- <label for="contrasena">Password:</label> -->
+            <div class="container-password">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <span class="eye" onclick="togglePasswordVisibility('password')"></span>
+
+
+                <input type="password" id="password2" name="password2" placeholder="Comfirm password" required>
+                <span class="eye1" onclick="togglePasswordVisibility1('password')"></span>
+                <p id="validation-result"></p>
+
+                <button type="submit">Enviar</button>
+
+            </div>
+            <!-- </div>
+
+            <label for="comfirmpassword">Comfirm Password:</label> 
+             <div class="conatainer-password">
+                <input type="comfirmpassword" id="comfirmpassword" name="comfirmpassword" placeholder="Comfirm password" required>
+                <span class="eye" onclick="togglePasswordVisibility('comfirmpassword')"></span>
+            </div> -->
+            <!-- <button type="submit">Enviar</button> -->
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
